@@ -1,0 +1,52 @@
+ /*@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");*/
+
+body {
+    background: linear-gradient( to top right , green , blue);
+}
+
+.kwitter {
+    /*font-family: 'Dancing Script', cursive;
+    font-style: normal;*/
+    font-family: 'Crimson Pro', serif;
+    font-size: 48px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+
+#user_name_input {
+    width: 60%;
+    margin-top: 100px;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    height: 2px;
+    background-color: black;
+}
+
+.main {
+    display: inline;
+    width: 30%;
+}
+
+.contacts {
+    padding-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: 1px solid gray;
+    margin-top: 260;
+}
+
+a {
+    margin-right: 20px;
+}
+

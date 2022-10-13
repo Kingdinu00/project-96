@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link href="style3.css" rel="stylesheet">
+        <script src="message.js"></script>  
+    </head>
+    <body>
+        <center>
+            <div id="main">
+        <h1 id="kwitter"> <img id="logo" src="logo.png"> Kwitter 
+            <sup> <img src="m2.png" height="50px" width="50px"> </sup>
+            </h1>
+            <hr class="forkwitter">
+            
+            <div id="output">  </div>
+
+            <div class="input_div">
+                <label>Send:</label>
+                <input type="text" placeholder="Message" class="form-control" id="msg">
+                <button onclick="send();" class="btn btn-success">Send</button>
+            </div>
+
+        </div>
+
+        </center>
+    </body>
+</html>
